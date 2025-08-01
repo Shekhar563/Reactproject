@@ -17,10 +17,10 @@ const Herosection = () => {
         </p>
       </div>
 
-      {/* The main search bar component, with a white background and rounded corners */}
+      
       <div className= "bg-white p-3 rounded-xl shadow-lg mt-8  absolute   flex flex-col md:flex-row  space-y-3  ">
         
-        {/* Input field for job title/keywords with a search icon */}
+        
         <div className="flex-1 flex items-center space-x-2 p-2 rounded-lg border border-gray-200 focus-within:ring-2 focus-within:ring-indigo-500 transition-shadow">
           <FaSearch className="w-5 h-5 text-gray-400" />
           <input
@@ -30,7 +30,7 @@ const Herosection = () => {
           />
         </div>
 
-        {/* Input field for city location with a map pin icon */}
+        
         <div className="flex-1 flex items-center space-x-2 p-2 rounded-lg border border-gray-200 focus-within:ring-2 focus-within:ring-indigo-500 transition-shadow">
           <FaMapPin className="w-5 h-5 text-gray-400" />
           <input
@@ -40,7 +40,7 @@ const Herosection = () => {
           />
         </div>
 
-        {/* Category dropdown with an icon and a chevron */}
+        
         <div className="flex-1 flex items-center justify-between space-x-2 p-2 rounded-lg border border-gray-200 focus-within:ring-2 focus-within:ring-indigo-500 transition-shadow cursor-pointer">
           <div className="flex items-center space-x-2">
             <FaAlignLeft className="w-5 h-5 text-gray-400" />
@@ -49,7 +49,7 @@ const Herosection = () => {
           <FaChevronDown className="w-5 h-5 text-gray-400" />
         </div>
 
-        {/* The main search button */}
+      
         <button className="bg-indigo-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-indigo-700 transition-colors shadow-md">
           Find me internship
         </button>

@@ -73,7 +73,7 @@ const App = () => {
           </div>
         </div>
 
-        {/* Right Section */}
+     
         <div className="flex items-center space-x-6">
           <div className="hidden md:flex space-x-6 text-gray-700 font-medium">
             <a href="#" className="hover:text-indigo-600">Home</a>
@@ -104,7 +104,7 @@ const App = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+    
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white px-4 py-4 shadow-lg border-t border-gray-200">
           <div className="flex flex-col space-y-4">
