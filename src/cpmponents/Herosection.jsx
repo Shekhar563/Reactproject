@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaSearch, FaMapPin, FaAlignLeft, FaChevronDown } from 'react-icons/fa';
 
+
 const Herosection = () => {
   return (
     <div className="bg-[#4157d3] p-8 md:p-16 rounded-3xl max-w-5xl mx-auto my-12 shadow-2xl relative  m-auto text-white">
@@ -15,13 +16,14 @@ const Herosection = () => {
         <p className="text-lg md:text-xl font-semibold mt-4">
           12+ Training Available
         </p>
+
       </div>
 
       
       <div className= "bg-white p-3 rounded-xl shadow-lg mt-8  absolute   flex flex-col md:flex-row  space-y-3  ">
         
         
-        <div className="flex-1 flex items-center space-x-2 p-2 rounded-lg border border-gray-200 focus-within:ring-2 focus-within:ring-indigo-500 transition-shadow">
+        <div className="flex-1 flex items-center space-x-2 p-2 rounded-lg border border-gray-200  transition-shadow">
           <FaSearch className="w-5 h-5 text-gray-400" />
           <input
             type="text"
@@ -31,7 +33,7 @@ const Herosection = () => {
         </div>
 
         
-        <div className="flex-1 flex items-center space-x-2 p-2 rounded-lg border border-gray-200 focus-within:ring-2 focus-within:ring-indigo-500 transition-shadow">
+        <div className="flex-1 flex items-center space-x-2 p-2 rounded-lg border border-gray-200  transition-shadow">
           <FaMapPin className="w-5 h-5 text-gray-400" />
           <input
             type="text"
@@ -41,12 +43,16 @@ const Herosection = () => {
         </div>
 
         
-        <div className="flex-1 flex items-center justify-between space-x-2 p-2 rounded-lg border border-gray-200 focus-within:ring-2 focus-within:ring-indigo-500 transition-shadow cursor-pointer">
+        <div className="flex-1 flex items-center justify-between space-x-2 p-2 rounded-lg border border-gray-200  transition-shadow cursor-pointer">
           <div className="flex items-center space-x-2">
             <FaAlignLeft className="w-5 h-5 text-gray-400" />
-            <span className="text-gray-400 text-sm">Category</span>
+            <select className="flex-1 border rounded-lg none px-3 py-2 text-base text-gray-600">
+        <option>Category</option>
+        <option>Web Development</option>
+        <option>Data Science</option>
+        <option>UI/UX Design</option>
+      </select>
           </div>
-          <FaChevronDown className="w-5 h-5 text-gray-400" />
         </div>
 
       

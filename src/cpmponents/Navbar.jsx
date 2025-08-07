@@ -121,7 +121,7 @@ const App = () => {
             <a href="#" className="block px-3 py-2 hover:bg-gray-100 rounded-lg">Home</a>
             <a href="#" className="block px-3 py-2 hover:bg-gray-100 rounded-lg">Internships</a>
             <a href="#" className="block px-3 py-2 hover:bg-gray-100 rounded-lg">Trainings</a>
-            <a href="#" className="block px-3 py-2 hover:bg-gray-100 rounded-lg">Blogs</a>
+            <a href="" className="block px-3 py-2 hover:bg-gray-100 rounded-lg">Blogs</a>
           </div>
         </div>
       )}
